@@ -1,36 +1,14 @@
-Ahmed Mahmoud
-Cairo, Egypt | ahmedmahmoudkzm@gmail.com | +20 1550800848
-https://www.ahmedmahmoud.dev/
-https://www.linkedin.com/in/ahmed-mahmoud-350b21214/
-https://github.com/ahmedmk11/
+Summary
+I am a full-stack software engineer with experience in React, Next.js, Node.js, Express, and NestJS. I focus on building responsive frontends and scalable backend systems. I also have practical experience with computer vision and AI through my Raspberry Pi-based deep learning bachelor project. My main technical skills include React, Next.js, Node.js, Express, NestJS, Python, MySQL, MongoDB, and REST APIs.
 
-SUMMARY:
-Full-stack software engineer experienced in React, Next.js, Node.js, Express, and NestJS. Skilled in building responsive frontends and scalable backend systems, with additional experience in computer vision and AI through my Raspberry Pi-based deep learning bachelor project.
-Tech Highlights: React, Next.js, Node.js, Express, NestJS, Python, MySQL, MongoDB, REST APIs
+Work Experience
+At Sweep Resort in Charlotte, USA, I worked as a Lead Full-Stack Software Engineer from February 2024 to July 2025. I led a small team to build the Sweep Resort website using ReactJS, Node.js, Express.js, and MySQL. My work improved responsiveness, automated workflows, and cut deposit handling time by half. I integrated payment processors, cryptocurrency gateways, and KYC systems, enabling secure transactions for over 6,500 users while ensuring regulatory compliance. I also collaborated with external partners to implement more than six API integrations, including webhooks, callbacks, and custom authentication mechanisms. Additionally, I automated internal tasks with Python and Stripe webhooks, reducing manual logging by 99.5 percent and saving the team approximately five to six hours per day.
 
-WORK EXPERIENCE:
-> Lead Full-Stack Software Engineer - Remote
-Sweep Resort | Charlotte, United States | Feb 2024 - July 2025
+I completed an internship as a Full-Stack Web Developer at Xceed in Cairo from August 2023 to September 2023. During this time, I built a task management system using ReactJS, Vite, Firebase, and SCSS, which improved team coordination and reduced task tracking time. I also developed a face-recognition attendance tool using ReactJS, Flask, MySQL, and Bootstrap to enable remote check-ins.
 
-* Led a small team in building the Sweep Resort website using ReactJS, Node.js, Express.js, and MySQL. improved responsiveness, automated workflows, and cut deposit handling time by 50%.
-* Integrated payment processors, cryptocurrency gateways, and KYC systems, enabling secure transactions for 6500+ users and ensuring regulatory compliance.
-* Collaborated directly with external partners to implement 6+ API integrations, including webhooks, callbacks, and custom authentication mechanisms.
-* Automated internal tasks with Python and Stripe webhooks cutting down manual logging by 99.5%, saving the team ~5-6 hours per day.
+As a freelancer, I worked for Splash in Cairo from January 2023 to May 2023, developing an e-commerce website using ReactJS, Node.js, Express.js, and MongoDB.
 
-> Full-Stack Web Developer - Intern	
-Xceed | Cairo, Egypt | Aug 2023 - Sep 2023
+Education
+I earned my Bachelor of Science in Computer Science and Engineering from the German University in Cairo, completing my studies in June 2025. My bachelor thesis was titled "Embedded System for Ultrasound Breast Cancer Diagnosis," which I built using ResNet-101 and InceptionV3 and deployed on a Raspberry Pi. The project was graded A+. I was also a member of the IEEE Machine Learning Club during my studies.
 
-* Built a Task Management System using ReactJS, Vite, Firebase, and SCSS, increasing team coordination and reducing task tracking time.
-* Developed a Face Recognition attendance tool with ReactJS, Flask, MySQL and Bootstrap, for remote check-ins.
-
-> Full-Stack Web Developer - Freelancer
-Splash	| Cairo, Egypt | Jan 2023 - May 2023
-
-* Developed an e-commerce website for Splash using ReactJS, Node.js, Express.js and MongoDB.
-
-EDUCATION:
-Bachelor of Science in Computer Science and Engineering							     
-German University in Cairo | Oct 2020 - June 2025
-
-Bachelor Thesis: "Embedded System for Ultrasound Breast Cancer Diagnosis", built with ResNet-101, InceptionV3, and deployed on Raspberry Pi, graded "A+". Former IEEE Machine Learning Club member.
-Tech Highlights: Java, Spring, C++, Python, .NET, C#, SQL, React, Node.js, MongoDB, Express, Unity
+My technical highlights include Java, Spring, C++, Python, .NET, C#, SQL, React, Node.js, MongoDB, Express, and Unity.
