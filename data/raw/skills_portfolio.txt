@@ -1,0 +1,63 @@
+Skills and Tech Stacks:
+
+I mainly work with React, Node.js, Express, and Vite, using both SQL and NoSQL databases such as MySQL, MongoDB, and Firestore.
+I’ve built e-commerce sites, payment integrations, KYC systems, and internal tools like task managers and face recognition apps.
+I’ve led teams and managed technical partnerships.
+For UI, I use Tailwind CSS, DaisyUI, Bootstrap, and Ant Design.
+I also use Python for automation, AI and backend tasks.
+
+ReactJS
+Node.js
+Express.js
+MongoDB
+MySQL
+Firebase
+Firestore
+Python
+Flask
+Tailwind CSS
+Vite
+Ant Design
+DaisyUI
+Bootstrap
+Webhooks
+Sockets
+Callbacks
+Payment Gateways
+Crypto Integration
+KYC Integration
+Microsoft Azure
+Next.js
+NestJS
+TypeScript
+Axios
+Framer Motion
+
+Deep Learning
+PyTorch
+TensorFlow
+Scikit-learn
+Pandas
+NumPy
+Transfer Learning
+Computer Vision
+
+Embedded Systems
+Raspberry Pi
+Motor Control
+GPIO
+
+C
+C++
+C#
+Java
+.NET
+Python
+Spring
+
+Game Development
+Unity
+2D Graphics
+3D Graphics
+Animation
+Level Design

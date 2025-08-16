@@ -1,0 +1,7 @@
+Title: Taskify
+Company: Xceed
+Description: A task management system built with React and Firebase.
+Tools: React, Firebase, Firestore, Authentication, Responsive Design, Material-UI, Ant Design
+GitHub: https://github.com/Ahmedmk11/taskify
+Link: https://taskmaster-231fe.web.app/login
+Completed: True

@@ -1,0 +1,7 @@
+Title: Zaki
+Company: Personal Project
+Description: An e-commerce website for high-quality extra virgin olive oil, designed to offer a smooth shopping experience with a clean interface and secure checkout.
+Tools: Next.js, NestJS, MongoDB, TypeScript, Tailwind CSS, Node.js, Axios, Framer Motion, React, E-commerce, Online Payment
+GitHub: https://github.com/Ahmedmk11/zaki
+Link: None
+Completed: False

@@ -1,0 +1,8 @@
+Title: Sweep Resort
+Company: Nashar Services LLC
+GitHub: None
+Link: https://www.sweepresort.com/
+Description: A sweepstakes website built with React and Node.js.
+Tools: React, Node.js, Express, MySQL, JWT, REST API, Ant Design, Tailwind CSS, Vite
+Significance: 2
+Completed: True

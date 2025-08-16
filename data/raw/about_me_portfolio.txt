@@ -1,0 +1,6 @@
+Hi, I'm Ahmed
+Software Engineer
+
+I'm a software engineer with a strong background in building scalable applications.
+My experience includes both frontend and backend, working with modern JavaScript frameworks. 
+I focus on delivering clean, efficient code and solving real world problems.

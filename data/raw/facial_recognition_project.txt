@@ -1,0 +1,7 @@
+Title: Facial Recognition System
+Company: Personal Project
+Description: A facial recognition system built with Python and OpenCV.
+Tools: Python, OpenCV, Deep Learning
+GitHub: https://github.com/Ahmedmk11/facial-recognition-system
+Link: None
+Completed: True

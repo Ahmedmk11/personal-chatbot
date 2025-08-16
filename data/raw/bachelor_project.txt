@@ -1,0 +1,8 @@
+Title: Breast Cancer Diagnosis System
+Company: Bachelor Project
+GitHub: https://github.com/Ahmedmk11/breast-cancer-diagnosis
+Link: https://doi.org/10.13140/RG.2.2.28574.24644
+Description: An embedded system for real-time breast cancer diagnosis using ultrasound imaging and a multi-stage CNN approach.
+Tools: Python, PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, Transfer Learning, ResNet-101, InceptionV3, Raspberry Pi 3, Bioinformatics, Computer Vision, Deep Learning, Embedded Systems
+Significance: 1
+Completed: True

@@ -1,0 +1,36 @@
+Ahmed Mahmoud
+Cairo, Egypt | ahmedmahmoudkzm@gmail.com | +20 1550800848
+https://www.ahmedmahmoud.dev/
+https://www.linkedin.com/in/ahmed-mahmoud-350b21214/
+https://github.com/ahmedmk11/
+
+SUMMARY:
+Full-stack software engineer experienced in React, Next.js, Node.js, Express, and NestJS. Skilled in building responsive frontends and scalable backend systems, with additional experience in computer vision and AI through my Raspberry Pi-based deep learning bachelor project.
+Tech Highlights: React, Next.js, Node.js, Express, NestJS, Python, MySQL, MongoDB, REST APIs
+
+WORK EXPERIENCE:
+> Lead Full-Stack Software Engineer - Remote
+Sweep Resort | Charlotte, United States | Feb 2024 - July 2025
+
+* Led a small team in building the Sweep Resort website using ReactJS, Node.js, Express.js, and MySQL. improved responsiveness, automated workflows, and cut deposit handling time by 50%.
+* Integrated payment processors, cryptocurrency gateways, and KYC systems, enabling secure transactions for 6500+ users and ensuring regulatory compliance.
+* Collaborated directly with external partners to implement 6+ API integrations, including webhooks, callbacks, and custom authentication mechanisms.
+* Automated internal tasks with Python and Stripe webhooks cutting down manual logging by 99.5%, saving the team ~5-6 hours per day.
+
+> Full-Stack Web Developer - Intern	
+Xceed | Cairo, Egypt | Aug 2023 - Sep 2023
+
+* Built a Task Management System using ReactJS, Vite, Firebase, and SCSS, increasing team coordination and reducing task tracking time.
+* Developed a Face Recognition attendance tool with ReactJS, Flask, MySQL and Bootstrap, for remote check-ins.
+
+> Full-Stack Web Developer - Freelancer
+Splash	| Cairo, Egypt | Jan 2023 - May 2023
+
+* Developed an e-commerce website for Splash using ReactJS, Node.js, Express.js and MongoDB.
+
+EDUCATION:
+Bachelor of Science in Computer Science and Engineering							     
+German University in Cairo | Oct 2020 - June 2025
+
+Bachelor Thesis: "Embedded System for Ultrasound Breast Cancer Diagnosis", built with ResNet-101, InceptionV3, and deployed on Raspberry Pi, graded "A+". Former IEEE Machine Learning Club member.
+Tech Highlights: Java, Spring, C++, Python, .NET, C#, SQL, React, Node.js, MongoDB, Express, Unity

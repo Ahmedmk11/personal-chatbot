@@ -1,0 +1,7 @@
+Title: V-Clinic
+Company: GUC
+Description: A virtual clinic platform for appointment booking, medical records, prescriptions, and communication between patients, doctors, and clinics, with integrated pharmacy support.
+Tools: React, MongoDB, Node.js, Express, Axios, Stripe, Ant Design, REST API, JWT
+GitHub: https://github.com/Ahmedmk11/v-clinc
+Link: https://v-clinic-mauve.vercel.app/
+Completed: True

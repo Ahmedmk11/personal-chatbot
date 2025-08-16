@@ -1,0 +1,7 @@
+Title: Zombie Invasion 2
+Company: Personal Project
+Description: A simple 2D game with animations built using Pygame.
+Tools: Python, Pygame, Game Development, 2D Graphics, Animation, Collision Detection, Game Physics, Sprite Animation, Game Logic, Sound Effects, Level Design, Boss Fight
+GitHub: https://github.com/Ahmedmk11/zombie-invasion-2
+Link: None
+Completed: True

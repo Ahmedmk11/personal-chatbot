@@ -1,0 +1,7 @@
+Education:
+
+I studied Computer Science and Engineering at the German University in Cairo, where I focused on software development, AI, embedded systems and more. My graduation project used deep learning for breast cancer diagnosis and ran on a Raspberry Pi.
+Worked on 40+ projects throughout my time in college from mini projects to large-scale systems including web apps, Unity games, embedded systems and more. Built a breast cancer diagnosis system using ResNet-101 and InceptionV3, deployed it on a Raspberry Pi 3 with a working GUI. Scored an A+ on the project. Also joined the IEEE Machine Learning Club and worked on applying deep learning to practical problems.
+
+B.Sc. Computer Science and Engineering
+German University in Cairo | Oct 2020 – Jun 2025

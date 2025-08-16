@@ -1,0 +1,18 @@
+Work Experience:
+
+I've contributed to building and maintaining production systems across different industries, with hands-on involvement in everything from architecture and development to deployment and integration. My work emphasizes reliability, clarity, and performance at every stage of the process.
+
+1- Lead Software Engineer
+Nashar Services LLC (Remote – USA) | Feb 2024 – July 2025
+
+Description: Led a team of engineers to build and maintain a scalable web platform for Sweep Resort. Integrated multiple payment processors, cryptocurrency gateways, and KYC verification systems. Also managed technical partnerships with new providers, including payment and compliance vendors, to expand platform capabilities and streamline operations.
+
+2- Full-Stack Web Developer
+Splash | Jan 2023 – May 2023 and Jul 2024 – Nov 2024
+
+Description: Designed and developed a custom e-commerce website for Splash as a full-stack developer, collaborating directly with the client to deliver a tailored solution.
+
+3- Full-Stack Web Developer Intern
+Xceed | Aug 2023 – Sep 2023
+
+Description: Built a task management system and a face recognition attendance tool during Xceed’s summer internship, using React, Firebase, and Flask in close collaboration with design and QA teams.

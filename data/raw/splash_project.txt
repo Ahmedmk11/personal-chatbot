@@ -1,0 +1,7 @@
+Title: Splash
+Company: Splash
+Description: A furniture e-commerce website built with React and Node.js.
+Tools: React, Node.js, Express, MongoDB, JWT, REST API, Ant Design, Tailwind CSS, Vite
+GitHub: https://github.com/Ahmedmk11/splash-v2
+Link: https://www.splash-furniture.com/
+Completed: True

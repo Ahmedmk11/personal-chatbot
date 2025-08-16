@@ -1,0 +1,7 @@
+Title: Smart Chess
+Company: GUC
+Description: A smart embedded chessboard using a Raspberry Pi Pico and electromagnets to automate gameplay with full chess logic and player feedback.
+Tools: C, Raspberry Pi Pico, Electromagnets, Chess Logic, Embedded Systems, Motor Control, GPIO
+GitHub: https://github.com/Ahmedmk11/smart-chess
+Link: None
+Completed: True
