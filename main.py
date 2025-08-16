@@ -4,10 +4,27 @@ from chains.router_chain import router_chain
 import logging
 import uuid
 
+from fastapi.middleware.cors import CORSMiddleware
+
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+CLIENT_PRODUCTION_URL = os.getenv("CLIENT_PRODUCTION_URL")
+CLIENT_DEVELOPMENT_URL = os.getenv("CLIENT_DEVELOPMENT_URL")
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[CLIENT_PRODUCTION_URL, CLIENT_DEVELOPMENT_URL],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 session_histories = {}
 
@@ -62,10 +79,6 @@ async def chat(query: UserQuery):
     except Exception as e:
         logger.error(f"Error processing query: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Error processing query: {str(e)}")
-
-@app.get("/health")
-async def health_check():
-    return {"status": "healthy"}
 
 @app.get("/")
 async def root():
