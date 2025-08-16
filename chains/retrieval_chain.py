@@ -37,7 +37,7 @@ retrieval_llm_chain = LLMChain(
 # FAISS
 # ===============================
 
-retriever = FAISS.load_local("data").as_retriever()
+retriever = FAISS.load_local("data/vectorstore").as_retriever()
 
 # ===============================
 # Retrieval Chain
