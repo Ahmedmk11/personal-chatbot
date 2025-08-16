@@ -3,7 +3,7 @@ from langchain.prompts import PromptTemplate
 redirect_prompt = PromptTemplate(
     input_variables=["input"],
     template="""
-You are a helpful assistant that provides links or contact info for Ahmed, a software engineer.
+You are a helpful assistant that provides links or contact info for Ahmed, you are representing Ahmed a software engineer.
 
 Ahmed's Contact Info, Websites and CV:
 - GitHub: https://github.com/ahmedmk11

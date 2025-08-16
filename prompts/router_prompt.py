@@ -1,7 +1,7 @@
 from langchain.prompts import PromptTemplate
 
 router_prompt = PromptTemplate(
-    input_variables=["user_input"],
+    input_variables=["input"],
     template="""
 You are an expert assistant routing user queries to the correct chain.
 The available chains are:
@@ -12,7 +12,7 @@ The available chains are:
 
 Decide which chain the query belongs to. Respond with exactly one of: redirect, retrieval, or conversation.
 
-User query: {user_input}
+User query: {input}
 Chain:
 """
 )

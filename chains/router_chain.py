@@ -1,46 +1,52 @@
 from langchain_groq import ChatGroq
-from langchain.chains.router import RouterChain
-from langchain.chains import LLMChain
-from prompts.router_prompt import router_prompt
+from langchain_core.runnables import RunnableBranch
 
+from prompts.router_prompt import router_prompt
 from chains.conversation_chain import conversation_chain
 from chains.retrieval_chain import retrieval_chain
 from chains.redirect_chain import redirect_chain
+from utils.llm_fallback import with_fallback
 
 import os
 from dotenv import load_dotenv
 
 load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+MODEL_NAME = os.getenv("MODEL_NAME")
+FALLBACK_MODEL_NAME = os.getenv("FALLBACK_MODEL_NAME")
 
 # ===============================
 # Router LLM
 # ===============================
 
-router_llm = ChatGroq(
-    model_name="llama-3.3-7b-versatile",
+primary_router_llm = ChatGroq(
+    model_name=MODEL_NAME,
+    temperature=0.0,
+    api_key=GROQ_API_KEY
+)
+
+fallback_router_llm = ChatGroq(
+    model_name=FALLBACK_MODEL_NAME,
     temperature=0.0,
     api_key=GROQ_API_KEY
 )
 
 # ===============================
-# LLMChain for routing
+# Router LLM
 # ===============================
 
-router_llm_chain = LLMChain(llm=router_llm, prompt=router_prompt)
+router_llm_chain = with_fallback(primary_router_llm, fallback_router_llm, router_prompt, False)
 
 # ===============================
-# RouterChain
+# Router chain
 # ===============================
 
-router_chain = RouterChain.from_llm(
-    router_llm_chain,
-    default_chain_key="conversation",
-    return_all_outputs=False
+def get_route(input_data):
+    route = router_llm_chain.invoke(input_data).content.strip().lower()
+    return route
+
+router_chain = RunnableBranch(
+    (lambda x: get_route(x) == "retrieval", retrieval_chain),
+    (lambda x: get_route(x) == "redirect", redirect_chain),
+    conversation_chain
 )
-
-router_chain.chains = {
-    "redirect": redirect_chain,
-    "retrieval": retrieval_chain,
-    "conversation": conversation_chain
-}
