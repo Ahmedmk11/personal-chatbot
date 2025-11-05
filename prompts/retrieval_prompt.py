@@ -1,4 +1,4 @@
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 
 retrieval_prompt = PromptTemplate(
     input_variables=["input", "retrieved_context"],

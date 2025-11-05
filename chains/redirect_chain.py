@@ -1,4 +1,3 @@
-from langchain.chains import LLMChain
 from langchain_groq import ChatGroq
 from prompts.redirect_prompt import redirect_prompt
 import os
