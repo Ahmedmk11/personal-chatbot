@@ -16,13 +16,15 @@ FALLBACK_MODEL_NAME = os.getenv("FALLBACK_MODEL_NAME")
 primary_llm = ChatGroq(
     model_name=MODEL_NAME,
     temperature=0,
-    api_key=GROQ_API_KEY
+    api_key=GROQ_API_KEY,
+    streaming=True
 )
 
 fallback_llm = ChatGroq(
     model_name=FALLBACK_MODEL_NAME,
     temperature=0,
-    api_key=GROQ_API_KEY
+    api_key=GROQ_API_KEY,
+    streaming=True
 )
 
 # ===============================

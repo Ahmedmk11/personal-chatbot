@@ -8,9 +8,8 @@ The available chains are:
 
 - "redirect": for questions about GitHub, portfolio, LinkedIn, email, resume, contact info or questions about links within the portfolio website or for project links like github repo, live demo or research paper.
 - "retrieval": for questions that need details from Ahmed's CV, projects, portfolio sections or skills.
-- "conversation": for casual conversation.
 
-Decide which chain the query belongs to. Respond with exactly one of: redirect, retrieval, or conversation.
+Decide which chain the query belongs to. Respond with exactly one of: redirect, retrieval.
 
 User query: {input}
 Chain:
