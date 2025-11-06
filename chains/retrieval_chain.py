@@ -36,19 +36,22 @@ fallback_llm = ChatGroq(
 # ===============================
 
 embeddings_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
+
 retriever = FAISS.load_local(
     "data/vectorstore",
     embeddings_model,
     allow_dangerous_deserialization=True
-).as_retriever()
+).as_retriever(search_kwargs={"k": 10})
 
 # ===============================
 # Retrieval pipeline with fallback
 # ===============================
 
+async def get_context(x):
+    docs = await retriever.ainvoke(x["input"])
+    return "\n".join(doc.page_content for doc in docs)
+
 retrieval_chain = RunnableMap({
     "input": lambda x: x["input"],
-    "retrieved_context": lambda x: "\n".join(
-        [doc.page_content for doc in retriever.get_relevant_documents(x["input"], k=10)]
-    )
+    "retrieved_context": get_context
 }) | with_fallback(primary_llm, fallback_llm, retrieval_prompt)
