@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schema.railpack.com",
+  "provider": "python",
+  "steps": {
+    "install": {
+      "commands": ["pip install uv", "uv sync --frozen"]
+    },
+    "build": {
+      "inputs": [{ "step": "install" }],
+      "commands": ["python scripts/pull_models.py || true"]
+    }
+  },
+  "deploy": {
+    "startCommand": "uv run uvicorn main:app --host 0.0.0.0 --port $PORT"
+  }
+}
